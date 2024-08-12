@@ -1,0 +1,36 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Psicoholistic - Not found">
+  <main class="min-h-[100vh] flex items-center">
+    <div class="container mx-auto p-4">
+      <div class="flex flex-col items-center">
+        <h1 class="text-5xl text-center font-extrabold text-yelow">Oops...</h1>
+        <h2 class="text-3xl text-center mb-10 font-extrabold text-yelow">
+          parece que esta página no existe
+        </h2>
+      </div>
+
+      <nav class="w-full lg:w-[600px] mx-auto flex items-center justify-center">
+        <button
+          class="text-white text-xl text-center underline inline-block font-semibold"
+          ><a href="/" class="inherit">Volver al inicio</a></button
+        >
+      </nav>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    background-image: linear-gradient(
+      to right top,
+      #9967c0,
+      #865bb0,
+      #744fa1,
+      #624391,
+      #503882
+    );
+  }
+</style>
