@@ -9,33 +9,23 @@ export const SERVICES: Service[] = [
     link: WHATSAPP_URI + "Hola! Me gustaría reservar cita para sesión 1:1",
   },
   {
-    id: "registrosakashicos",
-    name: "Registros Akáshicos",
+    id: "aperturaregistrosakashicos",
+    name: "Apertura de Registros Akáshicos",
     link:
-      WHATSAPP_URI + "Hola! Me gustaría reservar cita para Registros Akáshicos",
-  },
-  {
-    id: "pnlycoaching",
-    name: "PNL y Coaching",
-    link: WHATSAPP_URI + "Hola! Me gustaría reservar cita para PNL y Coaching",
+      WHATSAPP_URI +
+      "Hola! Me gustaría reservar cita para Apertura de Registros Akáshicos",
   },
   {
     id: "tapping",
     name: "Tapping",
-    link: WHATSAPP_URI + "Hola! Me gustaría reservar cita para Tapping",
+    link:
+      WHATSAPP_URI + "Hola! Me gustaría reservar cita para audio de Tapping",
   },
   {
-    id: "escrituraterapeutica",
-    name: "Escritura Terapéutica",
+    id: "full",
+    name: "Tapping + Escritura Terapéutica + Sesión 1:1",
     link:
       WHATSAPP_URI +
-      "Hola! Me gustaría reservar cita para Escritura Terapéutica",
-  },
-  {
-    id: "meditacion/mindfulness",
-    name: "Meditación / Mindfulness",
-    link:
-      WHATSAPP_URI +
-      "Hola! Me gustaría reservar cita para Meditación/Mindfulness",
+      "Hola! Me gustaría reservar cita para Tapping + Escritura Terapéutica + Sesión 1:1",
   },
 ];
